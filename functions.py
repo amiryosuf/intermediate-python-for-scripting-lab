@@ -62,8 +62,8 @@ get_area(shape, *args)
 # Create a function get_area(shape, *args) that does the following:
 # Takes a shape type as the first argument and additional arguments as needed for that shape.
 # Returns the area of the shape based on the type:
-# - "rectangle": requires length and width
-# - "circle": requires radius
+# "rectangle": requires length and width
+# "circle": requires radius
 def get_area(shape, *args):
     """
     Calculates the area of a shape based on the type.
@@ -88,11 +88,11 @@ def get_area(shape, *args):
 
 # Examples:
 shape = "rectangle"
-length = 10
-width = 5
+length = 5
+width = 3
 area = get_area(shape, length, width)
 print(f"The area of the {shape} is: {area}")
 shape = "circle"
-radius = 7
+radius = 8
 area = get_area(shape, radius)
 print(f"The area of the {shape} is: {area:.2f}")
